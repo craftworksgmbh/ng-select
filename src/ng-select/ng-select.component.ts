@@ -561,7 +561,6 @@ export class NgSelectComponent implements OnInit, OnDestroy, OnChanges, AfterVie
     private focusSearchInput() {
         setTimeout(() => {
             this.filterInput.nativeElement.focus();
-            this.filterInput.nativeElement.select();
         });
     }
 
